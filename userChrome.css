@@ -1,0 +1,33 @@
+/* Hides the native tabs */
+#TabsToolbar {
+    visibility: collapse;
+}
+
+/* Set variables for easy customization */
+:root {
+    --collapsed-sidebar-width: 45px;
+    /* Width of the sidebar when collapsed */
+    --expanded-sidebar-width: 250px;
+    /* Width of the sidebar when expanded */
+    --transition-time: 0.2s;
+    /* Transition time for expanding/collapsing */
+}
+
+/* Hide the sidebar header */
+#sidebar-header {
+    visibility: collapse;
+    display: none;
+}
+
+/* Set default collapsed state for native sidebar */
+#sidebar-box {
+    min-width: 0 !important;
+    width: var(--collapsed-sidebar-width) !important;
+    overflow: hidden !important;
+    transition: width var(--transition-time) ease !important;
+}
+
+/* Expand sidebar on hover */
+#sidebar-box:hover {
+    width: var(--expanded-sidebar-width) !important;
+}
