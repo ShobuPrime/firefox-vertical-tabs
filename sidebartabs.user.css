@@ -1,0 +1,29 @@
+/* Adjust the padding values as needed to center the favicon */
+.tab-icon {
+    padding: 0 1px;
+}
+
+/* Adjust this value according to your desired separation */
+.tab-title {
+    padding-left: 7px;
+}
+
+/* Hide the pinned tab icon by default */
+.tab-pinned-icon {
+    display: none;
+}
+
+/* Show the pinned tab icon on hover */
+.tab:hover .tab-pinned-icon {
+    display: inline-flex;
+}
+
+.tab-container.pinned .tab:last-child {
+    border-bottom: 1px solid #dadade; /* Use a color that fits the theme */
+    margin-bottom: 2px; /* Add some space after the separator, adjust as needed */
+}
+
+/* Hide the close button by default */
+:not(:hover) > .tab-close {
+    display: none; 
+}
