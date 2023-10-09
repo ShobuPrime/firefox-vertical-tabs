@@ -1,0 +1,30 @@
+# Recommended Defaults for Vertical Tab Behavior
+SidebarTabs-Options:
+
+  Sidebar-Theme:
+    - Auto: true
+    - Custom-Theme: false
+    - Use-tab-color-for-sidebar: true
+    - Reduce-tab-height: true
+    - Reduce-scrollbar-width: true
+    - Reduce-tab-group-color-bar-width: true
+    - Show-new-tab-button-separator: true
+    - Apply-user-stylesheet: 'sidebartabs.user.css'
+    - Active-tab-font: 'Bold'
+
+  Tab-Groups:
+    - Enable-tab-groups: true
+    - Always-put-the-newly-opened-grouped-tab-at-the-end-of-the-group: true
+    - Always-collapse-other-groups-when-expanding-a-tab-group: true
+    - Exclude-pinned-tabs: true
+
+  Optional-Settings:
+    - Allow-extension-to-read-and-modify-browser-settings: true
+    - Show-context-menu-on-mouseup: true
+    - Switch-tab-by-scrolling-mouse-wheel: true
+    - Always-switch-tab-with-mouse-wheel: true
+    - Invert-scroll-direction: true
+    - Prevent-close-tab-by-middle-click: true
+    - Skip-collapsed-tabs: true
+
+  Save-bookmarks-to: 'Auto'
