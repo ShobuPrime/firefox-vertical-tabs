@@ -14,7 +14,7 @@ Additionally, it contains styles for the [Sidebar Tabs extension](https://addons
 2. If it doesn't exist, create a `chrome` directory.
 3. Copy the `userChrome.css` from this repository into that directory.
 4. Restart Firefox to see the changes.
-5. For Sidebar Tabs styles, navigate to the [extension's settings](moz-extension://bb862881-b440-466e-9965-91c46a6fe164/html/options.html), select `Apply user stylesheet`, and copy the contents of `sidebartabs.user.css` from this repository into the text box.
+5. For Sidebar Tabs styles, navigate to the [extension's settings](moz-extension://bb862881-b440-466e-9965-91c46a6fe164/html/options.html) (moz-extension://bb862881-b440-466e-9965-91c46a6fe164/html/options.html), select `Apply user stylesheet`, and copy the contents of `sidebartabs.user.css` from this repository into the text box.
 6. Ensure `Sidebar Tabs` is enabled, and able to run in Private Windows
 
 ## Contributing
